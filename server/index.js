@@ -32,7 +32,7 @@ app.use("/product", productRoutes);
 app.use("/transaction", transactionRoutes);
 
 const aquaBlue = chalk.hex("#00FFFF");
-
+//PORT
 app.listen(port, () =>
   console.log(
     aquaBlue(`THE SERVER IS RUNNING ON: ${chalk.hex("#FFC0CB").bold(port)} !`)
